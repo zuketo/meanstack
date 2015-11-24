@@ -7,12 +7,15 @@
   <link rel="stylesheet" href="stylesheets/style.css">
   <script src="bower_components/angular/angular.js"></script>
   <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="bower_components/angular-animate/angular-animate.js"></script>
   <script src="javascripts/app.js"></script>
   <script src="javascripts/controllers.js"></script>
 </head>
 <body>
 
-  <div ng-view></div>
+	<div class="view-animate-container">
+        <div ng-view class="view-animate"></div>
+    </div>
 
 </body>
 </html>

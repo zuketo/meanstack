@@ -2,7 +2,8 @@
 
 var mongomartApp = angular.module('mongomartApp', [
   'ngRoute',
-  'mongomartControllers'
+  'mongomartControllers',
+  'ngAnimate'
 ]);
 
 mongomartApp.config(['$routeProvider',
