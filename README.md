@@ -18,18 +18,19 @@ Installation Instructions
 Run MongoDB and Load the Sample Dataset
 ---------------------------------------
 
-- Download MongoDB: https://www.mongodb.org/downloads
+- Download and extract MongoDB: https://www.mongodb.org/downloads
+- Ideally, add the contents of the MongoDB 'bin' directory to your PATH system variable 
 - Make a directory for your database files, e.g. mkdir ~/mongomart
 - Start MongoDB, specifying the path for database files (to run MongoDB as a background process use the --fork option and --logpath)
 
 ```javascript
-./bin/mongod --dbpath ~/mongomart
+mongod --dbpath ~/mongomart
 ```
 
 - Open a new terminal window and load the MongoMart dataset
 
 ```javascript
-./bin/mongoimport -d test -c items items.json
+mongoimport -d test -c items data/items.json
 ```
 
 - Ensure the items were correctly loaded into MongoDB
