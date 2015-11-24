@@ -4,7 +4,7 @@ MEAN Stack Sample Application: MongoMart
 
 MongoMart is a sample application for learning the MEAN stack: MongoDB, Express, Angular, and NodeJS.
 
-The sample application display items from a database, and animates transition between viewing all items and details for an individual item.
+The sample application displays items from a MongoDB database, and animates transitions between viewing all items and details for an individual item.
 
 Installation Instructions
 -------------------------
@@ -15,7 +15,7 @@ Installation Instructions
 - Run "npm start" (from the root directory of this application)
 - Visit "localhost:3000" to view the application
 
-Run MongoDB and load the sample dataset
+Run MongoDB and Load the Sample Dataset
 ---------------------------------------
 
 - Download MongoDB: https://www.mongodb.org/downloads
