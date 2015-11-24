@@ -37,5 +37,6 @@ mongoimport -d test -c items data/items.json
 
 ```javascript
 mongo
-> db.items.find()
+> db.items.find().count()
+23
 ```
