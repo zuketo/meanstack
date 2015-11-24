@@ -1,0 +1,28 @@
+body {
+  padding: 30px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.search input {
+	font-size: 16px;
+	padding: 3px;
+}
+
+.sort {
+	padding-top: 20px;
+	font-size: 16px;
+}
+
+.sort select {
+	font-size: 16px;
+	padding: 3px;
+}
+
+.item {
+	border-bottom: 1px solid #EEE;
+	padding: 10px 0px 20px 0px;
+}

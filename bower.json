@@ -1,0 +1,22 @@
+{
+  "name": "mongomart",
+  "description": "",
+  "main": "",
+  "authors": [
+    "zuketo"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.8",
+    "jquery": "~2.1.4"
+  }
+}
